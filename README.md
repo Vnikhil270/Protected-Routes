@@ -10,8 +10,7 @@ React Hook Form - For state handling
 
 Tailwind css
 
-I have used Login and Signup api from prebuild api provider i.e{" "}
-Open [https://mock-api.binaryboxtuts.com](https://mock-api.binaryboxtuts.com])
+I have used Login and Signup api from prebuild api provider i.e [https://mock-api.binaryboxtuts.com](https://mock-api.binaryboxtuts.com])
 
 I have implemented middleware using Higher Order Component for the dashboard route and file for this protected route is in PrivateRoute.js
 
