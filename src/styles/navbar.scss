@@ -1,0 +1,92 @@
+.Navbar {
+    background: #eeeeee !important;
+    .MuiButton-root {
+      font-family: "Inter", sans-serif;
+      text-transform: none;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 20px;
+    }
+    button {
+      color: #000000 !important;
+      font-weight: 400 !important;
+    }
+    .MuiButton-root:hover {
+      color: #0078d4 !important;
+      background-color: transparent;
+    }
+  }
+  
+  @media only screen and (min-width: 1025px) {
+    .Navbar {
+      .MuiBox-root {
+        height: 34px;
+      }
+      .MuiAppBar-root {
+        box-shadow: none;
+      }
+      .MuiToolbar-root {
+        min-height: inherit;
+      }
+      .MuiContainer-root {
+        padding-left: 0px;
+        padding-right: 0px;
+      }
+      .MuiButton-root:hover {
+        color: #e13b36;
+      }
+    }
+  }
+  
+  @media (min-width: 601px) and (max-width: 1024px) {
+    .Navbar {
+      .MuiAppBar-root {
+        box-shadow: none;
+      }
+      .MuiContainer-root {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+      }
+      .MuiBox-root {
+        height: 34px;
+      }
+      .MuiToolbar-root {
+        min-height: inherit;
+      }
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .navbarLogo {
+      margin: 20px 0px;
+    }
+    .Navbar {
+      .MuiContainer-root {
+        padding-left: 0px;
+        padding-right: 0px;
+      }
+      .MuiBox-root {
+        height: 34px;
+        position: absolute;
+        top: 10px;
+        right: 40px;
+  
+        .MuiPaper-root {
+          width: 0px;
+        }
+      }
+  
+      .MuiAppBar-root {
+        background: #fff;
+        box-shadow: none;
+      }
+      .MuiSvgIcon-root {
+        color: #000000;
+      }
+      .MuiToolbar-root {
+        min-height: inherit;
+        justify-content: flex-start;
+      }
+    }
+  }
+  
