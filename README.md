@@ -1,6 +1,19 @@
-# Getting Started with Create React App
+# Protected Routes Implementation
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I have Implemented the concept of Protected Routes over here using ReactJs
+
+## Functionality Included!!
+
+React Router Dom - for Routing
+
+React Hook Form - For state handling
+
+Tailwind css
+
+I have used Login and Signup api from prebuild api provider i.e{" "}
+Open [https://mock-api.binaryboxtuts.com](https://mock-api.binaryboxtuts.com])
+
+I have implemented middleware using Higher Order Component for the dashboard route and file for this protected route is in PrivateRoute.js
 
 ## Available Scripts
 
