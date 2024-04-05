@@ -60,9 +60,12 @@ function Signup() {
   const navigatePage=()=>{
     navigate("/dashboard")
   }
+  const loginPage=()=>{
+    navigate("/dashboard")
+  }
 
   const createAccount = (data) => {
-    authentication("/api/signup", data, navigatePage);
+    authentication("/api/signup", data, navigatePage, loginPage);
 
   };
 

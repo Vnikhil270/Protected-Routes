@@ -58,9 +58,12 @@ export default function Login() {
   const navigatePage=()=>{
     navigate("/dashboard")
   }
+  const signupPage=()=>{
+    navigate("/signup")
+  }
 
   const authenticateUser = async (data) => {
-    authentication("/api/login", data, navigatePage);
+    authentication("/api/login", data, navigatePage, signupPage);
   };
 
   return (
